@@ -1,0 +1,41 @@
+Problem:
+	Create a program that asks the user to input dimensions for the following shapes: a Square, Rectangle, and Triangle.
+	Take the square dimensions and calculate area using (x^2)
+	Take the rectangle dimensions and calculate area using (x*y)
+	Take the triangle dimensions and calculate area using (.5*x*y)
+	Print areas of each of the shapes based on inputs given.
+
+Input:
+	User's square dimensions (length) (integer)
+	User's rectangle dimensions (length, height) (integers)
+	User's triangle dimensions (length, height) (integers)
+
+Output
+	Area of square based on user's input
+	Area of rectangle based on user's input
+	Area of triangle based on user's input
+
+Step-by-Step Solution:
+
+	1. Welcome the user to my program.
+
+	2. Prompt the user to enter length of square
+	3. Store the user entered number into a variable of type integer
+
+	4. Prompt the user to enter length and height of rectangle
+	5. Store the user entered numbers into 2 variables of type integer
+
+	6. Prompt the user to enter length and height of triangle
+	7. Store the user entered numbers into 2 variables of type integer
+
+	8. Take length of square and perform function x^2
+	9. Take length and height of rectangle and perform function (x*y)
+	10. Take length and height of triangle and perform function (.5*x*y)
+	
+	9. Display the area of square
+	10. Display the area of rectangle
+	11. Display the area of triangle
+	12. Terminate the program.
+
+
+	
