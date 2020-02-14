@@ -1,0 +1,62 @@
+Problem:
+	Create a program/game that asks the user to enter their name and answer a series of questions, taunting the user if they enter the wrong answer. The questions include:
+	What is the result of 2+2
+	What is the result of 15%2 (remainder of dividing 15/2)
+	What is the user's favorite color?
+	Finally, what is ts the airspeed velocity of an unladen swallow?
+
+Input:
+	User's name (string)
+	User's Answer to question 2+2 (integer)
+	User's answer to question 15%2 (integer)
+	User's answer to favorite color (string)
+	User's answer to what is ts the airspeed velocity of an unladen swallow? (integer)
+
+
+Output
+	What is the result of 2+2
+	Taunt user and tell them they are cast into gorge of enternal peril if wrong.
+	Tell user they are correct if correct
+
+	What is the result of 15%2 (remainder of dividing 15/2)
+	Taunt user and tell them they are cast into gorge of enternal peril if wrong.
+	Tell user they are correct if correct
+
+	What is the user's favorite color?
+	Taunt user and tell them they are cast into gorge of enternal peril if wrong.
+	Tell user they are correct if correct
+
+	Finally, what is ts the airspeed velocity of an unladen swallow?
+	Taunt user and tell them they are cast into gorge of enternal peril if wrong.
+	If answer correctly, tell them "I, I don't know that!" and then cast them into gorge of enternal peril, and notify them that they won the game.
+
+Step-by-Step Solution:
+
+	1. Welcome the user to my program.
+	2. Tell User to enter their name.
+	3. Store the user entered name as a string
+
+	4. Ask user the answer to the question 2+2
+	5. Store input as variable of type integer
+	6. If user input does not equal 4, taunt them and cast them into gorge of enternal peril
+	7. If user input equals 4, tell them they are correct and move to next question
+
+	7. Ask user the answer to the question 15%2
+	8. Store input as variable of type integer
+	9. If user input does not equal 1, taunt them and cast them into gorge of enternal peril
+	7. If user input equals 1, tell them they are correct and move to next question
+
+	10. Ask user to enter their favorite color
+	11. Store input as variable of type string
+	12. If user input does not equal "blue" or "Blue" taunt them and cast them into gorge of enternal peril
+	13. If user input equals blue or Blue, tell them they are correct and move to next question
+
+	14. Ask user the answer to the question what is ts the airspeed velocity of an unladen swallow?
+	15. Store input as variable of type integer
+	16. If user input does not equal 42, taunt them and cast them into gorge of enternal peril
+	17. If user input equals 42 tell them "I, I don't know that!" and then cast them into gorge of enternal peril, and notify them that they won the game.
+
+	18. Terminate the program.
+
+
+	
