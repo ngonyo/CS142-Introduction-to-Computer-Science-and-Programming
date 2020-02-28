@@ -38,18 +38,19 @@ Step-by-Step Solution:
 	6. Output Menu item number five with price
 	7. Output Option to complete order
 
-	8. Store input (order) as type Int
+	8. Store input (order) as type double
 	9. Output loop of menu unless they opt to complete order
 	10. Output invalid selection if they dont choose valid selection (menu item or complete order)
 
 	11. Output total cost of order (plus 7% sales tax) once they input value equal to "complete order" selection
 	12. Prompt customer to enter amount paid
-	13. Display amount of change if they enter amount higher than total
-	14. Promt customer to pay more if amount they paid is less than total
-	15. Continue looping if they dont enter enough money
+	13. Store amount paid as type double
+	14. Display amount of change if they enter amount higher than total
+	15. Prompt customer to pay more if amount they paid is less than total
+	16. Continue looping if they dont enter enough money
 
-	16. Thank customer for visiting deli
-	17. Terminate the program.
+	17. Thank customer for visiting deli
+	18. Terminate the program.
 
 
 	
