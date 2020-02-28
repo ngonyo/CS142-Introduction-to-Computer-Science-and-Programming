@@ -1,0 +1,55 @@
+Problem:
+	Create a program that acts as a menu and ordering device for a restaurant (Blues Deli). 
+	The program should welcome the user to the deli, and then allow them to select from 5 items with prices listed. 
+	The program shoud loop until the customer is done ordering. 
+	After they have ordered, calculate their total, including a 7% sales tax. 
+	After they have paid, the program should calculate change, if needed.
+	If the customer does not enter enough money, prompt them to pay more.
+
+Input:
+	First Item Customer wants to order
+	Additional Items Customer wants to order (infinate amount)
+	Amount customer pays for their order
+
+
+Output
+	Welcome customer to Deli
+	Menu item number one with price
+	Menu item number two with price
+	Menu item number three with price
+	Menu item number four with price
+	Menu item number five with price
+	Option to complete order
+	Loop of Menu Items Unless they Complete Order
+	Total cost of items ordered (plus 7% sales tax)
+	Prompt to add more money if they dont pay enough
+	Amount of change if they pay too much
+	Thank customer for eating at deli
+
+
+Step-by-Step Solution:
+
+	1. Welcome the user to deli.
+	
+	2. Output Menu item number one with price
+	3. Output Menu item number two with price
+	4. Output Menu item number three with price
+	5. Output Menu item number four with price
+	6. Output Menu item number five with price
+	7. Output Option to complete order
+
+	8. Store input (order) as type Int
+	9. Output loop of menu unless they opt to complete order
+	10. Output invalid selection if they dont choose valid selection (menu item or complete order)
+
+	11. Output total cost of order (plus 7% sales tax) once they input value equal to "complete order" selection
+	12. Prompt customer to enter amount paid
+	13. Display amount of change if they enter amount higher than total
+	14. Promt customer to pay more if amount they paid is less than total
+	15. Continue looping if they dont enter enough money
+
+	16. Thank customer for visiting deli
+	17. Terminate the program.
+
+
+	
