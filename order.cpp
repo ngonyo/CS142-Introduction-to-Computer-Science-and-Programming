@@ -25,7 +25,7 @@ int main()
 	double order(0);
 	double payment (0);
 
-//do while statement for all menu choices EXCEPT 6 which opts to finish order. If user enters number on menu, it will say invalid selection.
+//do while statement for all menu choices EXCEPT 6 which opts to finish order. If user enters another number on menu, it will say invalid selection.
 //body of do while statement keeps track of each menu item & amount ordered.
 	
 	do
