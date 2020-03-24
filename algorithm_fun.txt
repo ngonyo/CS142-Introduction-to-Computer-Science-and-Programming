@@ -1,0 +1,57 @@
+Problem:
+	Create a program that acts as a calculator with the ability to perform 5 different functions.
+	The program/calculator functions are Addition, Subtraction, Multiplication, Modulus and Division.
+	The program should ask the user what operation they wish to perform, take input from the user and then display the result
+	The program should keep looping until the user opts to quit program
+
+
+Input:
+	First operation user wants to perform
+	User input for variable x
+	User input for variable y
+	Additional operations user wishes to perform, unless they opt to quit program
+
+
+Output:
+	Welcome user to calculation program
+	Function 1: Addition (x+y)
+	Function 2: Subtraction (x-y) 
+	Function 3: Multiplication (x*y) 
+	Function 4: Division (x/y)
+	Function 5: Modulus (x%y)
+	6: Option to quit program
+	Prompt for user to enter their choice
+	Prompt for user to enter value x
+	Prompt for user to enter value y
+	Loop of functions unless they opt to quit program
+	Tell user invalid entry if they dont enter a valid input
+
+Step by Step Solution:
+	Declare function getInput (Pass by Reference semantics) with void return type, 2 parameters of type double
+	Declare function calculateAddition (Pass by Value semantics) with double return type, 2 parameters of type double
+	Declare function calculateSubtraction (Pass by Value semantics) with double return type, 2 parameters of type double
+	Declare function calculateMultiplication (Pass by Value semantics) with double return type, 2 parameters of type double
+	Declare function calculateModulus (Pass by Value semantics) with int return type, 2 parameters of type int
+	Declare function calculateDivision (Pass by Value semantics) with double return type, 2 parameters of type double
+
+	Welcome user to calculation program
+	List calculation options:
+	Function 1: Addition (x+y)
+	Function 2: Subtraction (x-y) 
+	Function 3: Multiplication (x*y) 
+	Function 4: Division (x/y)
+	Function 5: Modulus (x%y)
+	6: Option to quit program
+
+	Store input (operation) as type Int
+	Prompt user to enter value for x
+	Prompt user to enter value for y
+	Store x and y in function getInput as parameters of type double
+	Perform calculation using desired function and user entered inputs (x&y)
+
+	Continue to loop list of functions unless they opt to quit program
+	Tell user invalid entry if they dont enter a valid input
+	IF user chooses modulus and enters 0 as value for y, ask for another entry.
+	Tell user goodbye when they choose to end program (6)
+	Terminate program
+	
