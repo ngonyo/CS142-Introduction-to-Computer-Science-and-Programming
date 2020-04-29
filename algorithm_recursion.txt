@@ -1,0 +1,25 @@
+Problem:
+	Create a program that prompts the user to enter a word that is less than 100 characters. The program then displays/outputs the word they entered. It will continue asking them to enter a word until they opt to end the program by inputting N at the menu. Tell the user they have entered an invalid input if they dont choose Y or N at menu.
+
+Input:
+	User choosen word.
+	User's choice to either continue or not
+
+Output:
+	Welcome to program.
+	Prompt to enter a word less than 100 characters
+	User's input backwards
+	Menu asking user if they want to continue (loop)
+	Error message if they dont enter Y or N
+	Thank user for using program.
+
+Step By Step Solution:
+	Declare / Define functions
+		If length / size of word entered is less than 2 (1) return word to user. Otherwise store each character in string (array) and value swap with word/input.
+	Init. variables int size, char input[size]
+	char select
+	Welcome user to program
+	Create looping menu asking user if they want to continue
+	If they select N, output thank you, goodbye.
+	If they select Y, keep running program.
+	
